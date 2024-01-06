@@ -14,47 +14,30 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 </header>
 
 <!--
-
-  <<< Author notes: Step 5 >>>
-
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
+## Finish
 
-## Step 5: Merge your pull request
+_Congratulations friend, you've completed this course!_
 
-_Almost there! :heart:_
+<img src=https://octodex.github.com/images/Fintechtocat.png alt=celebrate width=300 align=right>
 
-You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
+Here's a recap of all the tasks you've accomplished in your repository:
 
-### :keyboard: Activity: Merge your pull request
+- We created an Actions workflow to lint our Markdown files.
+- You caught an issue in a file and fixed the issue before it could make it to `main`.
+- You learned how to use build artifacts for test reports.
+- You enabled branch protections to require the workflow to pass before merging.
 
-1. Go to the **Pull requests** tab.
-1. Resolve any merge conflicts. <!-- TODO: figure out a better way to deal with the merge conflicts. -->
-1. Click **Merge pull request**.
-1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Make sure that you're on the `ci` branch in the page you're following instructions from._ Wait about 20 seconds and then refresh the page. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step.
-=======
-## Step 4: Add branch protections
+### What's next?
 
-_Great job uploading test reports! :partying_face:_
-
-Take a look at the merge box, you'll notice you can merge this even though the review process hasn't been met.
-
-Protected branches ensure that collaborators on your repository cannot make irrevocable changes to branches. Enabling protected branches also allows you to enable other optional checks and requirements, like required status checks and required reviews.
-
-### :keyboard: Activity: Add branch protections
-
-1. Go to **Branches** settings. You can navigate to that page manually by selecting the right-most tab in the top of the repository called **Settings** and then clicking **Branches**.
-1. Click **Add branch protection rule** under "Branch protection rules".
-1. Type `main` in **Branch name pattern**.
-1. Check **Require a pull request before merging**.
-1. Uncheck **Require approvals**.
-1. Check **Require status checks to pass before merging**.
-1. Check all build and test jobs that you'd like to see in the newly visible gray box.
-1. Click **Save changes**.
-1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Wait about 20 seconds and then go to the `ci` branch. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step on the `ci` branch. You'll need to follow instructions on this branch._
-
+- Get more ideas of what you can do with [awesome actions](https://github.com/sdras/awesome-actions).
+- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/test-with-actions).
+- [Take another GitHub Skills course](https://github.com/skills).
+- [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 <footer>
 
